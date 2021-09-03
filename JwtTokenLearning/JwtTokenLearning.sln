@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtTokenLearning.Business", "JwtTokenLearning.Business\JwtTokenLearning.Business.csproj", "{E9A17660-4A1C-4F9B-AC6F-EE3D97F84827}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JwtTokenLearning.Business", "JwtTokenLearning.Business\JwtTokenLearning.Business.csproj", "{E9A17660-4A1C-4F9B-AC6F-EE3D97F84827}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtTokenLearning.AuthApi", "JwtTokenLearning.AuthApi\JwtTokenLearning.AuthApi.csproj", "{63B1190A-ACA9-4953-A2F5-09D014ACD05C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JwtTokenLearning.AuthApi", "JwtTokenLearning.AuthApi\JwtTokenLearning.AuthApi.csproj", "{63B1190A-ACA9-4953-A2F5-09D014ACD05C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtTokenLearning.ProductApi", "JwtTokenLearning.ProductApi\JwtTokenLearning.ProductApi.csproj", "{3AF52A6F-731F-40A2-945D-D5A1BA0488B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtTokenLearning.OrderApi", "JwtTokenLearning.OrderApi\JwtTokenLearning.OrderApi.csproj", "{3FB75B37-04CC-4CCD-B27F-D446A84F5D9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{63B1190A-ACA9-4953-A2F5-09D014ACD05C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63B1190A-ACA9-4953-A2F5-09D014ACD05C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63B1190A-ACA9-4953-A2F5-09D014ACD05C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AF52A6F-731F-40A2-945D-D5A1BA0488B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AF52A6F-731F-40A2-945D-D5A1BA0488B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AF52A6F-731F-40A2-945D-D5A1BA0488B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AF52A6F-731F-40A2-945D-D5A1BA0488B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FB75B37-04CC-4CCD-B27F-D446A84F5D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FB75B37-04CC-4CCD-B27F-D446A84F5D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FB75B37-04CC-4CCD-B27F-D446A84F5D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FB75B37-04CC-4CCD-B27F-D446A84F5D9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

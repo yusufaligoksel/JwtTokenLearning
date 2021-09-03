@@ -11,7 +11,7 @@ namespace JwtTokenLearning.Business.Services.Abstract
 {
     public interface ITokenService
     {
-        TokenDto CreateToken(User user);
+        TokenDto CreateToken(User user, IList<string> userRoles);
         ClientTokenDto CreateTokenByClient(Client client);
     }
 }
